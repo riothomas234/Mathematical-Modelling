@@ -2,7 +2,7 @@ The Volterra equations
 
 The interactions between species in an ecosystem is at the heart of the study of ecology. In particular, the predator-prey relation gives rise to quite non-trivial dynamics in their population evolution. The Volterra equations (or Lotka-Volterra) were proposed to model the evolution of the simplest ecosystem, with a predator species and a prey. Taking  𝑦1(𝑡)  and  𝑦2(𝑡)  as the populations of prey and predator, respectively, the Volterra equations are
 
-d𝑦1d𝑡d𝑦2d𝑡==−𝑎𝑦1−𝑏𝑦1𝑦2𝑐𝑦2+𝑑𝑦1𝑦2. 
+$d𝑦1d𝑡d𝑦2d𝑡==−𝑎𝑦1−𝑏𝑦1𝑦2𝑐𝑦2+𝑑𝑦1𝑦2$
 
 The positive  𝑎  term quantifies the exponential growth of the prey population in the absence of predators: if  𝑏=0  the first equation decouples from the second and becomes a simple ODE; the fact that the offspring number is proportional to the reproducing population gives rise to an exponential growth. The model assumes unlimited food supply for the prey (in the typical rendering of this problem in terms of hares and foxes, think of enormous carrot fields available to the hares).
 
@@ -12,3 +12,4 @@ This extremely simple model gives rise to very rich dynamics, due to the fact th
 
 This project is based on concepts described in
 Natural Science IA Scientific Computing, University of Cambridge.
+
