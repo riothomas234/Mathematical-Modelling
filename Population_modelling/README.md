@@ -9,3 +9,6 @@ The positive  𝑎  term quantifies the exponential growth of the prey populatio
 The  𝑏  term accounts for the decrease of prey population due to deadly encounters with the predator. The term assumes that such deaths are proportional to the probability of their meeting, which is proportional to the product of their respective populations. The equations also assume that hare deaths by other causes are negligible. The second equation considers the predator population variation to be determined by natural deaths (proportional to the population itself, leading to exponential decay in the absence of prey), except if finding prey, simulated by a similar term as before, with opposite sign of course.
 
 This extremely simple model gives rise to very rich dynamics, due to the fact that it is a non linear model (which also makes it hard for analytic treatment). The description, analysis and ecological implications of the model are beyond the remit of this course, but it serves us nicely to illustrate the power of numerical approaches. NumPy is quite useful here, however, in giving us a very accessible tool for their numerical exploration.
+
+This project is based on concepts described in
+Natural Science IA Scientific Computing, University of Cambridge.
